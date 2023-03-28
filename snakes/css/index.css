@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  font-size: 0;
+}
+
+body {
+  background: #3e3e3e;
+}
+
+h2 {
+  color: #f0f;
+  font-size: 40px; 
+  text-align: center;
+}
+
+p {
+  color: #ff0;
+  font-size: 15px; 
+  text-align: center;
+}
+
+.app {
+  font-size: 20px;
+  position: relative;
+  border: 2px solid #000;
+  width: 600px; 
+  height: 680px;
+  margin: 60px auto;
+}
+
+.score {
+  line-height: 30px;
+  color: #efefef;
+  background: #2f4f2f;
+  font-size: 20px;
+}
+.score-value {
+  line-height: 30px;
+  color: #efefef;
+  font-size: 20px;
+}
+
+.view {
+  position: relative;
+  font-size: 20px;
+  background: #000;
+  border-top: 2px solid #f00;
+  width: 100%; /*面板宽度600px*/
+  height: 600px; /*面板高度*/
+  border-bottom: 2px solid #f00;
+}
+
+/* 食物的样式 */
+.view span {
+  font-size: 10px;
+  display: block;
+  border-radius: 0.4em;
+  background: #36a0d2;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+}
+/* 蛇的身体样式 */
+.view div {
+  border: 1px solid #ff0;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 10px;
+  width: 14px;
+  height: 14px;
+  background: #3f1f1f;
+}
+
+
+.ops {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background: #7f1a4d;
+}
+
+input[type='button'] {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  margin-right: 20px;
+  padding: 4px;
+  font-size: 20px;
+}

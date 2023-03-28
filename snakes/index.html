@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <title>Greedy Snake</title>
+</head>
+<script src="./js/game.js"></script>
+<body>
+  <h2>Greedy Snake</h2>
+  <div class="app">
+    <div class="score">
+      分数: <span class="score-value">0</span>
+    </div>
+    <div class="view">
+
+    </div>
+    <!-- 操作面板 -->
+    <div class="ops">
+      <input type="button" value="RESTART" onclick="gameRestart()" id="restartBtn">
+      <input type="button" value="PAUSE" onclick="gamePause()" id="pauseBtn">
+    </div>
+    <p>按下回车键开始.</p>
+    <p>You can click ENTER to start the game.</p>
+    <p>暂停游戏请按下空格键.</p>
+    <p>You can click SPACE to stop the game.</p>
+  </div>
+</body>
+</html>
