@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css"/>
+  <title>时钟案例</title>
+</head>
+<body>
+  <div id="timer">
+    <div id="top">
+      <!-- d1 展示 时分秒 -->
+      <div id="d1">
+        <div id="hour"></div>
+        <div>:</div>
+        <div id="minute"></div>
+        <div>:</div>
+        <div id="second"></div>
+      </div>
+      <div id="clock">
+        <div class="outer-frame">
+          <div class="mark m1"></div>
+          <div class="mark m2"></div>
+          <div class="mark m3"></div>
+          <div class="mark m4"></div>
+        </div>
+        <div class="inner-frame">
+          <!-- 时针 分针 秒针 -->
+          <div class="clip h-clip"></div>
+          <div class="clip m-clip"></div>
+          <div class="clip s-clip"></div>
+        </div>
+      </div>
+    </div>
+    <!-- d2 展示年月日 礼拜几 -->
+    <div id="d2">
+      <div id="year"></div>
+      <div id="month"></div>
+      <div id="date"></div>
+      <div id="day"></div>
+    </div>
+  </div>
+  
+</body>
+<script src="./index.js"></script>
+</html>
